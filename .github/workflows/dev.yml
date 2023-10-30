@@ -43,4 +43,4 @@ jobs:
         with:
           webhook: ${{ secrets.WEBHOOK_URL }}
           title: "Build and Deploy"
-          description: "Test here: https://pine-x.vercel.app"
+          description: "Test here: https://test-cicd-flame.vercel.app/"
