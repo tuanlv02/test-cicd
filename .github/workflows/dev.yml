@@ -15,7 +15,7 @@ jobs:
   #       with:
   #         access_token: ${{ github.token }}
   deploy:
-    needs: cancel
+    # needs: cancel
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
