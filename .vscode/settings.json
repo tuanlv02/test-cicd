@@ -1,0 +1,20 @@
+{
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.formatOnSave": true,
+  "git.ignoreLimitWarning": true,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "files.eol": "\n",
+}

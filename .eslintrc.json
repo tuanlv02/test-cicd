@@ -1,3 +1,19 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "@hunghg255/eslint-config-react"],
+  "rules": {
+    "unicorn/no-new-array": "off",
+    "react/display-name": "off",
+    "@next/next/no-img-element": "off",
+    "indent": "off",
+    "require-await": "off",
+    "multiline-ternary": "off",
+    "import/no-named-as-default-member": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-console": ["error", { "allow": ["error"] }],
+    "semi": [2, "always"],
+    "unicorn/no-null": "off",
+    "import/no-cycle": "off",
+    "import/no-named-as-default": "off"
+    // "linebreak-style": 0
+  }
 }

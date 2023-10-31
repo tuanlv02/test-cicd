@@ -1,0 +1,10 @@
+@import './reset.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeSpeed;
+  font-family: var(--fontInter), sans-serif !important;
+}
