@@ -20,6 +20,8 @@ jobs:
     needs: cancel
     runs-on: ubuntu-latest
     steps:
+      - name: Append Secrets
+        run: cp .env.prod .env
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
